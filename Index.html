@@ -16,234 +16,271 @@
 
 <body>
     <header>
-        <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a id="bandeau" class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        </div>
-        <div id="logo"></div>
-        <nav class="collapse navbar-collapse" id="navbarSupportedContent">
-            <article>
-                <a href="">Teams</a>
-                <div class="ssMenu">
-                    <a>Full's Team</a>
-                    <a>Farouk</a>
-                    <a>Lightning Strike</a>
-                    <a>Requiem Circus</a>
-                    <a>E-Girl Call me to Int</a>
-                    <a>Digue du cul</a>
-                    <a>Valhalla Pulse</a>
-                    <a>NomàTrouver2</a>
-                    <a>Sur le coup</a>
-                    <a>Jack Faciales</a>
-                </div>
-            </article>
 
-            <article>
-                <a href="">Resultats</a>
-                <div class="ssMenu">
-                    <a>Ligue RBE</a>
-                    <a>Tournoi interne</a>
-                    <a>Scrims</a>
-                </div>
-            </article>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span id="logo"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-            <article>
-                <a href="">Compet</a>
-                <div class="ssMenu">
-                    <a>5v5</a>
-                    <a>2v2</a>
-                    <a>1v1</a>
-                    <a>Dessins</a>
-                </div>
-            </article>
-
-            <article>
-                <a href="">Twitch</a>
-            </article>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Teams
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Full's Team</a>
+                            <a class="dropdown-item" href="#">Farouk</a>
+                            <a class="dropdown-item" href="#">Lightning Strike</a>
+                            <a class="dropdown-item" href="#">Requiem Circus</a>
+                            <a class="dropdown-item" href="#">E-Girl Call me to Int</a>
+                            <a class="dropdown-item" href="#">Digue du cul</a>
+                            <a class="dropdown-item" href="#">Valhalla Pulse</a>
+                            <a class="dropdown-item" href="#">NomàTrouver2</a>
+                            <a class="dropdown-item" href="#">Sur le coup</a>
+                            <a class="dropdown-item" href="#">Jack Faciales</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Résultats
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Ligue RBE</a>
+                            <a class="dropdown-item" href="#">Tournois Internes</a>
+                            <a class="dropdown-item" href="#">Scrims</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Compétition
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">5v5</a>
+                            <a class="dropdown-item" href="#">2v2</a>
+                            <a class="dropdown-item" href="#">1v1</a>
+                            <a class="dropdown-item" href="#">Dessins</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Twitchs <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <div class="container row">
-        <section id="slide">
-
+    <div id="contenu" class="row">
+        <section id="slide" class="col-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/B2I vs FRK v2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/B2I vs FRK.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/LS vs FRK.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
         </section>
         <!-- <section id="hallOfFame"></section> -->
-        <section id="intDiscord" class="col-md-4 col-sm-12"></section>
-        <section id="contenu" class="col-md-8 col-sm-12">
-            <div id="reglement">
-                <h2>Bonjour à toi, Invocateur !</h2>
+        <section id="intDiscord" class="col-md-4 col-sm-12">
+            <iframe src="https://discord.com/widget?id=694261971821789304&theme=dark" width="100%" height="100%"
+                allowtransparency="true" frameborder="0"
+                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+        </section>
+        <section id="reglement" class="col-md-8 col-sm-12">
+            <h2>Bonjour à toi, Invocateur !</h2>
 
-                <h1>Ce discord a une vocation communautaire, et s'articule principalement autour du jeu League of
-                    Legends.
-                </h1>
+            <h4>Ce discord a une vocation communautaire, et s'articule principalement autour du jeu League of
+                Legends.
+            </h4>
 
-                <h1>REGLEMENT DU DISCORD</h1>
+            <h1>REGLEMENT DU DISCORD</h1>
 
-                <p>Nous souhaitons que chacun et chacune se sente bien sur ce serveur, aussi nous demandons à tout le
-                    monde
-                    d'observer les règles élémentaires de vie en communauté.</p>
+            <p>Nous souhaitons que chacun et chacune se sente bien sur ce serveur, aussi nous demandons à tout le
+                monde
+                d'observer les règles élémentaires de vie en communauté.</p>
 
-                <ul>
-                    <h2>Le respect est de mise :</h2>
-                    <li> Pas d'insultes / provocations / trashtalk</li>
-                    <li> Pas de sexisme / racisme / homophobie ou autre connerie humaine extrême</li>
-                    <li> Pas de violence</li>
-                    <li> Pas harcèlement</li>
-                </ul>
-                <ul>
-                    <h3>Le bon sens :</h3>
-                    <li> Pas de monnayage (skins et autres faveurs)</li>
-                    <li> Ce qui se passe entre les membres adultes et consentants de la communauté reste entre ces
-                        personnes.
-                        En aucun cas, ce discord a une vocation de site de rencontre.</li>
-                    <li> Pas de colportages</li>
-                </ul>
+            <ul>
+                <h2>Le respect est de mise :</h2>
+                <li> Pas d'insultes / provocations / trashtalk</li>
+                <li> Pas de sexisme / racisme / homophobie ou autre connerie humaine extrême</li>
+                <li> Pas de violence</li>
+                <li> Pas harcèlement</li>
+            </ul>
+            <ul>
+                <h3>Le bon sens :</h3>
+                <li> Pas de monnayage (skins et autres faveurs)</li>
+                <li> Ce qui se passe entre les membres adultes et consentants de la communauté reste entre ces
+                    personnes.
+                    En aucun cas, ce discord a une vocation de site de rencontre.</li>
+                <li> Pas de colportages</li>
+            </ul>
 
-                <p>Si nous acceuillons volontiers l'humour (et la mer) noir(e), en revanche nous ne discutons pas avec
-                    les
-                    terroristes.</p>
-                <p> Tout manquement à ces règles donneront lieu à un bannissement définitif.</p>
-            </div>
-            <div id="annonces">
-                <h1>Fonctionnalités du serveur</h1>
+            <p>Si nous acceuillons volontiers l'humour (et la mer) noir(e), en revanche nous ne discutons pas avec
+                les
+                terroristes.</p>
+            <p> Tout manquement à ces règles donneront lieu à un bannissement définitif.</p>
+        </section>
+        <section id="annonces" class="col-12">
+            <h1>Fonctionnalités du serveur</h1>
 
-                <article>
-                    <h2>Gestion du serveur</h2>
+            <article>
+                <h2>Gestion du serveur</h2>
 
-                    <p>Pour assurer le bon fonctionnement du serveur, nous vous proposons un personnel assez complet et
-                        qui
-                        seront présents pour vous aider, et/ou régler quelconque problème interne.<br>
-                        -> Les @Organisateurs ainsi que les @Modérateurs<br>
-                        Ainsi qu'une fonctionnalité de report [ #⚖-parler-à-un-modo ] & de suggestion [ #📝-suggestions
-                        ]
-                    </p>
+                <p>Pour assurer le bon fonctionnement du serveur, nous vous proposons un personnel assez complet et
+                    qui
+                    seront présents pour vous aider, et/ou régler quelconque problème interne.<br>
+                    -> Les @Organisateurs ainsi que les @Modérateurs<br>
+                    Ainsi qu'une fonctionnalité de report [ #⚖-parler-à-un-modo ] & de suggestion [ #📝-suggestions
+                    ]
+                </p>
 
-                    <h3>Les Organisateurs</h3>
-                    <p>@Hakaien : Relations internes Coachs & Teams,</p>
-                    <p>@Little Dino : Organisation d'évènements, Communication</p>
-                    <p>@Morrigαn : Administration du serveur, Complétion des équipes, Communication</p>
+                <h3>Les Organisateurs</h3>
+                <p>@Hakaien : Relations internes Coachs & Teams,</p>
+                <p>@Little Dino : Organisation d'évènements, Communication</p>
+                <p>@Morrigαn : Administration du serveur, Complétion des équipes, Communication</p>
 
-                    <h3>Les Modérateurs</h3>
-                    <p>Des représentants du marteau de Thor pour permettre à la communauté de grandir sainement.</p>
+                <h3>Les Modérateurs</h3>
+                <p>Des représentants du marteau de Thor pour permettre à la communauté de grandir sainement.</p>
 
-                    <h3>Les Animateurs</h3>
-                    <p>Des membres actifs de la communauté, apportant leur pierre à l'édifice que ce soit sur le plan
-                        humain
-                        ou sur le plan technique.</p>
-                </article>
-
-                <article>
-                    <h2>Animations et Evénements</h2>
-
-                    <p>Toutes les annonces des prochaines animations, événements ou concours seront annoncés via le
-                        chanel
-                        #⚠-annonces
-                        Pour faire vivre ce serveur, nous disposons de plusieurs activités.</p>
-
-                    <h3>Animations</h3>
-                    <p>i l'envie te prend, tu peux passer tes soirées à venir sur ce serveur animé avec du contenu sur
-                        la
-                        plateforme Twitch / Youtube annoncer par le salon : #🎬-médiathèque par un animateur ou venir
-                        pour
-                        faire
-                        des parties entre membres du serveur ou discuter via le salon #💬-taverne.</p>
-
-                    <h3>Evénements</h3>
-                    <p>Tu veux participer à des événements ? Ca tombe à pique. Nous faisons parfois des tournois pour
-                        élire
-                        la
-                        meilleure équipe ou le meilleur joueur. Annoncé dans le salon #📅-événements.</p>
-
-                    <h3>all of Flame</h3>
-                    <p>Un salon spécifique #🔥-hall-of-flame sera dédié aux temps forts du serveur.</p>
-
-                    <h3>Hall of Fame</h3>
-                    <p>Un salon spécifique #💹-hall-of-fame concernera le palmarès des tournois / événements ou
-                        concours.
-                    </p>
-                </article>
-
-                <article>
-                    <h2>La vie du serveur</h2>
-
-                    <p>Le serveur accumule des membres, il grandit. Pour le faire vivre, vous êtes les acteurs de cette
-                        évolution. Discuter avec les membres via la #💬-taverne, jouer avec des gens du serveur que ça
-                        soit
-                        en
-                        tryhardant ou en chillant, chercher des joueurs, fonder son équipe ainsi que participer aux
-                        animations
-                        ET événements.</p>
-
-                    <h3>Discussion & Partage</h3>
-                    <p>Vous êtes libre de pouvoir discuter avec n'importe qui n'importe quand, partager vos photos ainsi
-                        que
-                        de
-                        sublime memes via les salons : #💬-taverne / #👤-photomaton / #👀-partage dans les règles de vie
-                        du
-                        serveur énoncé dans #📌-bienvenue</p>
-
-                    <h3>Recherche de joueurs</h3>
-                    <p>La recherche de joueurs s'effectue de manière simple. On dispose de 2 sections, une partie pour
-                        League
-                        Of Legends et une autre pour les Autres Jeux.</p>
-                    <ul>
-                        <li>#🔎-5v5-aram-tft : Chill</li>
-                        <li>#🔎-duo-q / #🔎-flex-clash : Tryhard</li>
-                    </ul>
-
-                    <h3>Les channels et droits</h3>
-                    <ul>
-                        <li> DuoQ : Recherche et salons vocaux réservés</li>
-                        <li> Flex : Recherche et salons vocaux réservés</li>
-                        <li> Commu : Réservés</li>
-                    </ul>
-
-                    <p>N'oubliez pas de sélectionner les réactions adéquates sur les salons #📌-bienvenue /
-                        #📌-roles-duoq /
-                        #📌-flex sinon vous n'aurez pas accès à tout le contenu :wink:</p>
-
-                    <h3>Teams et Coaching</h3>
-                    <p></p>Nous disposons de @Coachs vous permettant de fonder votre propre équipe afin de pouvoir
-                    évoluer
-                    dans une
-                    team qui VOUS correspond. Les équipes sont affichées dans le salon #📇-teams, ainsi vous pourrez
-                    voir où
-                    il y a de la place.</p>
-
-                    <p>En ce qui concerne les "Teams".</p>
-                    <p>Pour y créer la votre ou en rejoindre une il faudra passer par un @Organisateurs ainsi qu'avoir
-                        déjà
-                        l'idée de sa team complète.</p>
-                    <ul>
-                        <h5>Création d'une équipe</h5>
-                        <li>Nom d'équipe : []</li>
-                        <li>Capitaine d'équipe : []</li>
-                        <li>Membres : [] ( Pseudo + Poste )</li>
-                    </ul>
-                    <ul>
-                        <h5>*Rejoindre une équipe *</h5>
-                        <li>Nom d'équipe : []</li>
-                        <li>Entretien entre un @Organisateurs et un @Capitaines</li>
-                    </ul>
-
-                    <p>En ce qui concerne les "Coachs".<br>
-                        Pour rejoindre une team sans Coach ou le devenir il faudra passer par un @Organisateurs .</p>
-                    <ul>
-                        <h5>*Rejoindre une équipe *</h5>
-                        <li>Nom d'équipe voulu : []</li>
-                        <li>Devenir Coach</li>
-                        <li>Entretien avec un @Organisateurs</li>
-                    </ul>
-
-                    <h3>Recherche de Scrim</h3>
-                    <p>Les scrims sont effectués par le biais du salon : #📄-coaching-scrim-team</p>
-            </div>
+                <h3>Les Animateurs</h3>
+                <p>Des membres actifs de la communauté, apportant leur pierre à l'édifice que ce soit sur le plan
+                    humain
+                    ou sur le plan technique.</p>
             </article>
+
+            <article>
+                <h2>Animations et Evénements</h2>
+
+                <p>Toutes les annonces des prochaines animations, événements ou concours seront annoncés via le
+                    chanel
+                    #⚠-annonces
+                    Pour faire vivre ce serveur, nous disposons de plusieurs activités.</p>
+
+                <h3>Animations</h3>
+                <p>i l'envie te prend, tu peux passer tes soirées à venir sur ce serveur animé avec du contenu sur
+                    la
+                    plateforme Twitch / Youtube annoncer par le salon : #🎬-médiathèque par un animateur ou venir
+                    pour
+                    faire
+                    des parties entre membres du serveur ou discuter via le salon #💬-taverne.</p>
+
+                <h3>Evénements</h3>
+                <p>Tu veux participer à des événements ? Ca tombe à pique. Nous faisons parfois des tournois pour
+                    élire
+                    la
+                    meilleure équipe ou le meilleur joueur. Annoncé dans le salon #📅-événements.</p>
+
+                <h3>all of Flame</h3>
+                <p>Un salon spécifique #🔥-hall-of-flame sera dédié aux temps forts du serveur.</p>
+
+                <h3>Hall of Fame</h3>
+                <p>Un salon spécifique #💹-hall-of-fame concernera le palmarès des tournois / événements ou
+                    concours.
+                </p>
+            </article>
+
+            <article>
+                <h2>La vie du serveur</h2>
+
+                <p>Le serveur accumule des membres, il grandit. Pour le faire vivre, vous êtes les acteurs de cette
+                    évolution. Discuter avec les membres via la #💬-taverne, jouer avec des gens du serveur que ça
+                    soit
+                    en
+                    tryhardant ou en chillant, chercher des joueurs, fonder son équipe ainsi que participer aux
+                    animations
+                    ET événements.</p>
+
+                <h3>Discussion & Partage</h3>
+                <p>Vous êtes libre de pouvoir discuter avec n'importe qui n'importe quand, partager vos photos ainsi
+                    que
+                    de
+                    sublime memes via les salons : #💬-taverne / #👤-photomaton / #👀-partage dans les règles de vie
+                    du
+                    serveur énoncé dans #📌-bienvenue</p>
+
+                <h3>Recherche de joueurs</h3>
+                <p>La recherche de joueurs s'effectue de manière simple. On dispose de 2 sections, une partie pour
+                    League
+                    Of Legends et une autre pour les Autres Jeux.</p>
+                <ul>
+                    <li>#🔎-5v5-aram-tft : Chill</li>
+                    <li>#🔎-duo-q / #🔎-flex-clash : Tryhard</li>
+                </ul>
+
+                <h3>Les channels et droits</h3>
+                <ul>
+                    <li> DuoQ : Recherche et salons vocaux réservés</li>
+                    <li> Flex : Recherche et salons vocaux réservés</li>
+                    <li> Commu : Réservés</li>
+                </ul>
+
+                <p>N'oubliez pas de sélectionner les réactions adéquates sur les salons #📌-bienvenue /
+                    #📌-roles-duoq /
+                    #📌-flex sinon vous n'aurez pas accès à tout le contenu :wink:</p>
+
+                <h3>Teams et Coaching</h3>
+                <p></p>Nous disposons de @Coachs vous permettant de fonder votre propre équipe afin de pouvoir
+                évoluer
+                dans une
+                team qui VOUS correspond. Les équipes sont affichées dans le salon #📇-teams, ainsi vous pourrez
+                voir où
+                il y a de la place.</p>
+
+                <p>En ce qui concerne les "Teams".</p>
+                <p>Pour y créer la votre ou en rejoindre une il faudra passer par un @Organisateurs ainsi qu'avoir
+                    déjà
+                    l'idée de sa team complète.</p>
+                <ul>
+                    <h5>Création d'une équipe</h5>
+                    <li>Nom d'équipe : []</li>
+                    <li>Capitaine d'équipe : []</li>
+                    <li>Membres : [] ( Pseudo + Poste )</li>
+                </ul>
+                <ul>
+                    <h5>*Rejoindre une équipe *</h5>
+                    <li>Nom d'équipe : []</li>
+                    <li>Entretien entre un @Organisateurs et un @Capitaines</li>
+                </ul>
+
+                <p>En ce qui concerne les "Coachs".<br>
+                    Pour rejoindre une team sans Coach ou le devenir il faudra passer par un @Organisateurs .</p>
+                <ul>
+                    <h5>*Rejoindre une équipe *</h5>
+                    <li>Nom d'équipe voulu : []</li>
+                    <li>Devenir Coach</li>
+                    <li>Entretien avec un @Organisateurs</li>
+                </ul>
+
+                <h3>Recherche de Scrim</h3>
+                <p>Les scrims sont effectués par le biais du salon : #📄-coaching-scrim-team</p>
+
+            </article>
+        </section>
         </section>
 
     </div>

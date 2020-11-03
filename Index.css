@@ -1,14 +1,27 @@
 body {
     width: 80%;
     margin: auto;
+    background-image: url(img/Cool-Grey-Wallpapers-Backgrounds-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-#slide {
+#contenu {
     width: 100%;
-    border: 2px solid black;
-    height: 200px;
+    margin: auto;
 }
 
-#intDiscord {
-    border: 1px solid purple;
+#carouselExampleIndicators {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.carousel-inner, .carousel-item img {
+    height: 450px;
+    width: auto;
 }
