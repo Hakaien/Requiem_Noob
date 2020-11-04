@@ -7,6 +7,16 @@ body {
     background-attachment: fixed;
 }
 
+#banniere {
+    margin: auto;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+#logo2 img {
+    height: 100px;
+}
+
 #contenu {
     width: 100%;
     margin: auto;
@@ -22,6 +32,6 @@ body {
 }
 
 .carousel-inner, .carousel-item img {
-    height: 450px;
+    height: 500px;
     width: auto;
 }
